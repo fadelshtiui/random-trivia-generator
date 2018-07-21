@@ -1,0 +1,18 @@
+{
+     "manifest_version": 2,
+     "name": "Random Trivia Generator",
+     "description": "Generates a random trivia question when a new tab is opened courtesy of the Open Trivia Database API",
+     "version": "0.1",
+     "author": "Fadel Shtiui",
+
+     "browser_action": {
+          "default_icon": "tab-icon.png",
+          "default_title": "Random Trivia Question"
+     },
+
+     "chrome_url_overrides" : {
+          "newtab": "index.html"
+     },
+
+     "permissions": ["activeTab"]
+}
